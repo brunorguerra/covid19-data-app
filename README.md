@@ -1,9 +1,9 @@
 <h1 align="center">
-    Cases Covid19 App
+    Covid 19 Data App
 </h1>
 
 <h4 align="center">
-  To-do List App with React and Typescript.
+  Covid 19 Data App with React (ContextAPI) and Typescript.
 </h4>
 
 <p align="center">
@@ -22,6 +22,8 @@ This project was developed for learning with the following technologies:
 
 -   [ReactJS](https://reactjs.org/)
 -   [styled-components](https://www.styled-components.com/)
+-   [Axios](https://axios-http.com/ptbr/docs/intro)
+-   [ContextAPI](https://pt-br.reactjs.org/docs/context.html)
 -   [react-icons](https://react-icons.github.io/react-icons)
 -   [VS Code][vc] with [ESLint][vceslint]
 
@@ -31,10 +33,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/brunorguerra/to-do-list
+$ git clone https://github.com/brunorguerra/covid19-data-app
 
 # Go into the repository
-$ cd to-do-list
+$ cd covid19-data-app
 
 # Install dependencies
 $ yarn install
@@ -53,8 +55,8 @@ $ http://localhost:3000/
 
 ## Links
 
--   Deploy on Vercel: https://to-do-list-brunoguerra.vercel.app/
--   Repository: https://github.com/brunorguerra/to-do-list
+-   Deploy on Vercel: https://covid19-data-app.vercel.app/
+-   Repository: https://github.com/brunorguerra/covid19-data-app
 
 Made with ♥ by Bruno Guerra [Get in touch!](https://www.linkedin.com/in/brunorguerra/)
 
