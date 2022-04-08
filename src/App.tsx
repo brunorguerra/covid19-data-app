@@ -1,6 +1,7 @@
 import { Description } from "./components/Description";
 import * as S from "./App.style";
 import { Statistics } from "./components/Statistics";
+import { Precaution } from "./components/Precaution";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <S.Main>
                 <h2>Estatísticas de Casos por País</h2>
                 <Statistics />
+                <Precaution />
             </S.Main>
 
             <S.Footer>

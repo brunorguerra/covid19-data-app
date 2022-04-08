@@ -53,13 +53,11 @@ export const Statistics = () => {
                             id="country"
                             onChange={(e) => setCurrentCountry(e.target.value)}
                         >
-                            <optgroup>
-                                {listCountries.map((country, index) => (
-                                    <option key={index} value={country.Slug}>
-                                        {country.Country}
-                                    </option>
-                                ))}
-                            </optgroup>
+                            {listCountries.map((country, index) => (
+                                <option key={index} value={country.Slug}>
+                                    {country.Country}
+                                </option>
+                            ))}
                         </select>
                     </div>
                 </div>
